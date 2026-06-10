@@ -98,7 +98,6 @@ void insertPosition(Node*& head,int pos, int x) {
     for (int i = 0; i < pos - 1 && temp != NULL; i++) {
         temp = temp->next;
     }
-
     if (temp == NULL) {
         cout << "Invalid Position\n";
         delete newNode;
@@ -151,7 +150,7 @@ Node* head = NULL;
     insert_back(head,a);
 
   }
-  
+
 
   dispaly(head);
 
